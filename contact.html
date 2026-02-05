@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Contact Nurture Sync - Get in touch with our team for inquiries, partnerships, or support.">
+    <title>Contact Us | Nurture Sync</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="Nurture sync logo.png">
+
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+
+<body>
+    <div class="overlay" id="overlay"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar scrolled" id="navbar">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <img src="Nurture sync logo.png" alt="Nurture Sync Logo" class="navbar-logo-circular">
+                <span>Nurture Sync</span>
+            </a>
+
+            <ul class="navbar-nav" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="team.html">Our Team</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="contact.html" class="navbar-cta active">Contact Us</a></li>
+            </ul>
+
+            <div class="navbar-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html">Home</a>
+                <span>/</span>
+                <span>Contact Us</span>
+            </div>
+            <h1>Get in Touch</h1>
+            <p>Have questions about Nurture Sync? Want to partner with us? We'd love to hear from you.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section">
+        <div class="container">
+            <div class="contact-grid">
+
+                <!-- Contact Info -->
+                <div class="contact-info fade-in">
+                    <h2>Let's Start a <span class="text-gradient">Conversation</span></h2>
+                    <p>
+                        Whether you're a healthcare institution looking to partner, a doctor wanting to join our
+                        platform,
+                        or a patient with questions — we're here to help.
+                    </p>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-item-icon">📧</div>
+                            <div class="contact-item-content">
+                                <h4>Email Us</h4>
+                                <p><a href="mailto:knandini7816@gmail.com">knandini7816@gmail.com</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-item-icon">📱</div>
+                            <div class="contact-item-content">
+                                <h4>Call Us</h4>
+                                <p><a href="tel:+91XXXXXXXXXX">+91 XXXX XXX XXX</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-item-icon">📍</div>
+                            <div class="contact-item-content">
+                                <h4>Location</h4>
+                                <p>India</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-item-icon">⏰</div>
+                            <div class="contact-item-content">
+                                <h4>Business Hours</h4>
+                                <p>Monday - Friday: 9:00 AM - 6:00 PM IST</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="margin-top: var(--space-8);">
+                        <h4 style="margin-bottom: var(--space-4);">Follow Us</h4>
+                        <div class="footer-social" style="justify-content: flex-start;">
+                            <a href="#" aria-label="LinkedIn">in</a>
+                            <a href="#" aria-label="Twitter">𝕏</a>
+                            <a href="#" aria-label="Facebook">f</a>
+                            <a href="#" aria-label="Instagram">📷</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper slide-in-right">
+                    <form class="contact-form" id="contactForm">
+                        <h3>Send Us a Message</h3>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="from_name" placeholder="Your name" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="from_email" placeholder="your@email.com" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+91 XXXXX XXXXX">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Subject *</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="">Select a subject</option>
+                                    <option value="General Inquiry">General Inquiry</option>
+                                    <option value="Partnership">Partnership Opportunity</option>
+                                    <option value="Doctor Registration">Doctor Registration</option>
+                                    <option value="Patient Support">Patient Support</option>
+                                    <option value="Technical Support">Technical Support</option>
+                                    <option value="Media & Press">Media & Press</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" placeholder="Tell us how we can help you..."
+                                required></textarea>
+                        </div>
+
+                        <div class="form-submit">
+                            <button type="submit" class="btn btn-primary btn-lg" id="submitBtn">
+                                <span id="btnText">Send Message</span>
+                                <span id="btnSpinner" class="spinner"
+                                    style="display: none; width: 20px; height: 20px; border-width: 2px;"></span>
+                            </button>
+                        </div>
+
+                        <div class="form-message" id="formMessage"></div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section" style="background: var(--gray-50);">
+        <div class="container">
+            <div class="section-header">
+                <h2>Frequently Asked <span class="text-gradient">Questions</span></h2>
+                <p>Quick answers to common questions about Nurture Sync.</p>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card fade-in">
+                    <h4 style="margin-bottom: var(--space-3);">How do I get my digital health card?</h4>
+                    <p style="margin-bottom: 0; font-style: normal;">Sign up on the Nurture Sync app, complete your
+                        health profile, and your unique QR-enabled health card will be generated automatically.</p>
+                </div>
+
+                <div class="testimonial-card fade-in">
+                    <h4 style="margin-bottom: var(--space-3);">Is my health data secure?</h4>
+                    <p style="margin-bottom: 0; font-style: normal;">Absolutely. We use industry-standard encryption and
+                        comply with all healthcare data protection regulations to keep your information safe.</p>
+                </div>
+
+                <div class="testimonial-card fade-in">
+                    <h4 style="margin-bottom: var(--space-3);">How can doctors join the platform?</h4>
+                    <p style="margin-bottom: 0; font-style: normal;">Doctors can register through our app or website. We
+                        verify credentials before providing platform access to ensure a trusted community.</p>
+                </div>
+
+                <div class="testimonial-card fade-in">
+                    <h4 style="margin-bottom: var(--space-3);">What does the premium subscription include?</h4>
+                    <p style="margin-bottom: 0; font-style: normal;">Premium subscribers get access to the community
+                        platform, direct messaging with doctors, health channels, and exclusive content.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Transform Healthcare?</h2>
+            <p>Join thousands of patients and doctors already using Nurture Sync.</p>
+            <div class="cta-buttons">
+                <a href="services.html" class="btn btn-lg btn-primary">Explore Features</a>
+                <a href="team.html" class="btn btn-lg btn-outline">Meet Our Team</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="Nurture sync logo.png" alt="Nurture Sync">
+                    <p>Revolutionizing healthcare with digital innovation. Your complete health companion for a
+                        connected, healthier future.</p>
+                    <div class="footer-social">
+                        <a href="https://www.linkedin.com/in/nandini-kuppala/" aria-label="LinkedIn">in</a>
+                        <a href="https://www.linkedin.com/in/nandini-kuppala/" aria-label="Twitter">𝕏</a>
+                        <a href="https://www.linkedin.com/in/nandini-kuppala/" aria-label="Facebook">f</a>
+                        <a href="https://www.linkedin.com/in/nandini-kuppala/" aria-label="Instagram">📷</a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="team.html">Our Team</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html#patients">For Patients</a></li>
+                        <li><a href="services.html#doctors">For Doctors</a></li>
+                        <li><a href="services.html#community">Community</a></li>
+                        <li><a href="#">API Access</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul class="footer-links">
+                        <li><a href="mailto:knandini7816@gmail.com">knandini7816@gmail.com</a></li>
+                        <li><a href="tel:+91XXXXXXXXXX">+91 XXXX XXX XXX</a></li>
+                        <li>India</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Nurture Sync. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top"></button>
+    <script src="js/main.js"></script>
+
+    <script>
+        // Initialize EmailJS - Replace with your credentials from emailjs.com
+        // Instructions:
+        // 1. Go to https://emailjs.com and sign in with knandini7816@gmail.com
+        // 2. Create a new Email Service (connect to Gmail)
+        // 3. Create an Email Template with variables: from_name, from_email, phone, subject, message
+        // 4. Get your Public Key from Account > API Keys
+        // 5. Replace the values below with your actual credentials
+
+        (function () {
+            // REPLACE 'YOUR_PUBLIC_KEY' with your actual EmailJS public key
+            emailjs.init('YOUR_PUBLIC_KEY');
+        })();
+
+        // Contact Form Submission
+        document.getElementById('contactForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            const submitBtn = document.getElementById('submitBtn');
+            const btnText = document.getElementById('btnText');
+            const btnSpinner = document.getElementById('btnSpinner');
+            const formMessage = document.getElementById('formMessage');
+
+            // Show loading state
+            btnText.textContent = 'Sending...';
+            btnSpinner.style.display = 'inline-block';
+            submitBtn.disabled = true;
+
+            // Prepare template parameters
+            const templateParams = {
+                from_name: document.getElementById('name').value,
+                from_email: document.getElementById('email').value,
+                phone: document.getElementById('phone').value || 'Not provided',
+                subject: document.getElementById('subject').value,
+                message: document.getElementById('message').value,
+                to_email: 'knandini7816@gmail.com'
+            };
+
+            // Send email using EmailJS
+            // REPLACE 'YOUR_SERVICE_ID' and 'YOUR_TEMPLATE_ID' with your actual values
+            emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', templateParams)
+                .then(function (response) {
+                    console.log('Email sent successfully!', response);
+                    formMessage.textContent = '✓ Thank you! Your message has been sent successfully. We\'ll get back to you soon.';
+                    formMessage.className = 'form-message success';
+                    document.getElementById('contactForm').reset();
+                })
+                .catch(function (error) {
+                    console.error('Email sending failed:', error);
+                    formMessage.textContent = '✗ Oops! Something went wrong. Please try again or email us directly at knandini7816@gmail.com';
+                    formMessage.className = 'form-message error';
+                })
+                .finally(function () {
+                    btnText.textContent = 'Send Message';
+                    btnSpinner.style.display = 'none';
+                    submitBtn.disabled = false;
+                });
+        });
+    </script>
+</body>
+
+</html>

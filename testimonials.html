@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="See what healthcare professionals and patients are saying about Nurture Sync - testimonials from our partners and users.">
+    <title>Testimonials | Nurture Sync</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="Nurture sync logo.png">
+
+    <style>
+        .video-title {
+            text-align: center;
+            margin-bottom: var(--space-4);
+            color: #fff;
+            font-size: var(--text-sm);
+            padding: var(--space-2) var(--space-4);
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: var(--radius-lg);
+            position: absolute;
+            bottom: var(--space-4);
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 5;
+            white-space: nowrap;
+        }
+
+        .gallery-section {
+            background: var(--gray-50);
+        }
+
+        .gallery-item figcaption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: var(--space-4);
+            background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+            color: #fff;
+            font-size: var(--text-sm);
+            font-weight: 500;
+            text-align: center;
+        }
+
+        .stats-section {
+            background: var(--gradient-primary);
+            padding: var(--space-16) 0;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: var(--space-8);
+            text-align: center;
+        }
+
+        .stat-item h3 {
+            font-size: var(--text-5xl);
+            color: #fff;
+            margin-bottom: var(--space-2);
+        }
+
+        .stat-item p {
+            color: rgba(255, 255, 255, 0.85);
+            font-size: var(--text-lg);
+            margin-bottom: 0;
+        }
+
+        @media (max-width: 768px) {
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="overlay" id="overlay"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar scrolled" id="navbar">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <img src="Nurture sync logo.png" alt="Nurture Sync Logo" class="navbar-logo-circular">
+                <span>Nurture Sync</span>
+            </a>
+
+            <ul class="navbar-nav" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="team.html">Our Team</a></li>
+                <li><a href="testimonials.html" class="active">Testimonials</a></li>
+                <li><a href="contact.html" class="navbar-cta">Contact Us</a></li>
+            </ul>
+
+            <div class="navbar-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html">Home</a>
+                <span>/</span>
+                <span>Testimonials</span>
+            </div>
+            <h1>What People Say</h1>
+            <p>Hear from healthcare professionals, institutions, and patients about their experience with Nurture Sync.
+            </p>
+        </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section class="partners" style="padding-top: var(--space-20);">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Trusted <span class="text-gradient">Partners</span></h2>
+                <p>We're proud to collaborate with leading healthcare institutions and universities across India.</p>
+            </div>
+
+            <div class="partners-grid">
+                <div class="partner-logo fade-in stagger-1">
+                    <img src="Images/Indira medical college and hospital.jpeg"
+                        alt="Indira Medical College and Hospital">
+                </div>
+                <div class="partner-logo fade-in stagger-2">
+                    <img src="Images/KBN University.jpeg" alt="KBN University">
+                </div>
+                <div class="partner-logo fade-in stagger-3">
+                    <img src="Images/Sri lakshmi narayana institute of medical science.jpeg"
+                        alt="Sri Lakshmi Narayana Institute of Medical Science">
+                </div>
+                <div class="partner-logo fade-in stagger-4">
+                    <img src="Images/ashraya home health care.png" alt="Ashraya Home Health Care">
+                </div>
+                <div class="partner-logo fade-in stagger-5">
+                    <img src="Images/patients.jpeg" alt="Patient Community">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item fade-in stagger-1">
+                    <h3>15+</h3>
+                    <p>Active Users</p>
+                </div>
+                <div class="stat-item fade-in stagger-2">
+                    <h3>10+</h3>
+                    <p>Verified Doctors</p>
+                </div>
+                <div class="stat-item fade-in stagger-3">
+                    <h3>100+</h3>
+                    <p>Nurses</p>
+                </div>
+                <div class="stat-item fade-in stagger-4">
+                    <h3>4+</h3>
+                    <p>Partner Hospitals</p>
+                </div>
+                <div class="stat-item fade-in stagger-5">
+                    <h3>30+</h3>
+                    <p>Medical Students</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Written Testimonials -->
+    <section class="testimonials section">
+        <div class="container">
+            <div class="section-header">
+                <h2>User <span class="text-gradient">Testimonials</span></h2>
+                <p>Real stories from real people who've experienced the Nurture Sync difference.</p>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card fade-in stagger-1">
+                    <p class="testimonial-quote">
+                        Nurture Sync has transformed how we manage patient records. The QR-based health card gives us
+                        instant access to complete medical histories, especially crucial in emergency situations.
+                    </p>
+                    <div class="testimonial-author">
+                        <img src="https://ui-avatars.com/api/?name=Dr+Ramesh&background=00897b&color=fff"
+                            alt="Dr. Ramesh Kumar">
+                        <div class="testimonial-author-info">
+                            <h4>Dr. Ramesh Kumar</h4>
+                            <p>Chief Cardiologist, Indira Medical College</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card fade-in stagger-2">
+                    <p class="testimonial-quote">
+                        As a patient with multiple chronic conditions, keeping track of all my medications and reports
+                        was overwhelming. Nurture Sync has made my life so much easier with everything in one place.
+                    </p>
+                    <div class="testimonial-author">
+                        <img src="https://ui-avatars.com/api/?name=Lakshmi+Priya&background=00897b&color=fff"
+                            alt="Lakshmi Priya">
+                        <div class="testimonial-author-info">
+                            <h4>Lakshmi Priya</h4>
+                            <p>Patient, Chennai</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card fade-in stagger-3">
+                    <p class="testimonial-quote">
+                        The AI-powered report analysis feature is incredible. It helps me quickly understand trends in
+                        my patients' health parameters and make more informed decisions.
+                    </p>
+                    <div class="testimonial-author">
+                        <img src="https://ui-avatars.com/api/?name=Dr+Priya&background=00897b&color=fff"
+                            alt="Dr. Priya Sharma">
+                        <div class="testimonial-author-info">
+                            <h4>Dr. Priya Sharma</h4>
+                            <p>General Physician, Ashraya Home Health Care</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card fade-in stagger-4">
+                    <p class="testimonial-quote">
+                        The drug compatibility checker has been a lifesaver. It helps me avoid potential drug
+                        interactions, especially for elderly patients on multiple medications.
+                    </p>
+                    <div class="testimonial-author">
+                        <img src="https://ui-avatars.com/api/?name=Dr+Suresh&background=00897b&color=fff"
+                            alt="Dr. Suresh Menon">
+                        <div class="testimonial-author-info">
+                            <h4>Dr. Suresh Menon</h4>
+                            <p>Senior Consultant, Sri Lakshmi Narayana Institute</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Testimonials -->
+    <section class="section" style="background: var(--gradient-dark);">
+        <div class="container">
+            <div class="section-header">
+                <h2 style="color: #fff;">Video <span style="color: var(--accent-light);">Testimonials</span></h2>
+                <p style="color: rgba(255,255,255,0.7);">Watch real feedback from healthcare professionals and patients.
+                </p>
+            </div>
+
+            <div class="video-grid">
+                <div class="video-card fade-in stagger-1">
+                    <video src="videos/Patient Feedback 1.mp4" preload="metadata"></video>
+                    <div class="video-overlay" onclick="playVideo(this)">
+                        <div class="play-btn"></div>
+                    </div>
+                    <span class="video-title">Patient Feedback</span>
+                </div>
+
+                <div class="video-card fade-in stagger-2">
+                    <video src="videos/IMG_0582.MOV.mp4" preload="metadata"></video>
+                    <div class="video-overlay" onclick="playVideo(this)">
+                        <div class="play-btn"></div>
+                    </div>
+                    <span class="video-title">Doctor Feedback</span>
+                </div>
+                <!-- Stacked Landscape Videos from Google Drive -->
+                <div class="video-stack fade-in stagger-3">
+                    <div class="video-card landscape gdrive-video">
+                        <iframe src="https://drive.google.com/file/d/1TagxGfYkTqwkogfvr3ANj5U8ZJHUw82r/preview"
+                            allow="autoplay" allowfullscreen></iframe>
+                        <span class="video-title">Live Demo</span>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="video-card landscape gdrive-video">
+                        <iframe src="https://drive.google.com/file/d/1O6ql2k57tM415D97lasNpeJc16KlWcqG/preview"
+                            allow="autoplay" allowfullscreen></iframe>
+                        <span class="video-title">Live Demo</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Gallery -->
+    <section class="gallery-section section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our <span class="text-gradient">Partners in Action</span></h2>
+                <p>Snapshots from our collaborations with healthcare institutions across India.</p>
+            </div>
+
+            <div class="image-gallery">
+                <figure class="gallery-item fade-in stagger-1">
+                    <img src="Images/Indira medical college and hospital.jpeg"
+                        alt="Indira Medical College and Hospital">
+                    <figcaption>Indira Medical College & Hospital</figcaption>
+                </figure>
+
+                <figure class="gallery-item fade-in stagger-2">
+                    <img src="Images/KBN University.jpeg" alt="KBN University">
+                    <figcaption>KBN University</figcaption>
+                </figure>
+
+                <figure class="gallery-item fade-in stagger-3">
+                    <img src="Images/Sri lakshmi narayana institute of medical science.jpeg"
+                        alt="Sri Lakshmi Narayana Institute">
+                    <figcaption>Sri Lakshmi Narayana Institute</figcaption>
+                </figure>
+
+                <figure class="gallery-item fade-in stagger-4">
+                    <img src="Images/ashraya home health care.png" alt="Ashraya Home Health Care">
+                    <figcaption>Ashraya Home Health Care</figcaption>
+                </figure>
+
+                <figure class="gallery-item fade-in stagger-5">
+                    <img src="Images/patients.jpeg" alt="Patient Community">
+                    <figcaption>Our App being Used by Doctors</figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Join Our Growing Community</h2>
+            <p>Experience the future of healthcare. Become part of the Nurture Sync family today.</p>
+            <div class="cta-buttons">
+                <a href="contact.html" class="btn btn-lg btn-primary">Get Started</a>
+                <a href="services.html" class="btn btn-lg btn-outline">Explore Features</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="Nurture sync logo.png" alt="Nurture Sync">
+                    <p>Revolutionizing healthcare with digital innovation. Your complete health companion for a
+                        connected, healthier future.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="LinkedIn">in</a>
+                        <a href="#" aria-label="Twitter">𝕏</a>
+                        <a href="#" aria-label="Facebook">f</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="team.html">Our Team</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html#patients">For Patients</a></li>
+                        <li><a href="services.html#doctors">For Doctors</a></li>
+                        <li><a href="services.html#community">Community</a></li>
+                        <li><a href="#">API Access</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul class="footer-links">
+                        <li><a href="mailto:knandini7816@gmail.com">knandini7816@gmail.com</a></li>
+                        <li><a href="tel:+91XXXXXXXXXX">+91 XXXX XXX XXX</a></li>
+                        <li>India</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Nurture Sync. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top"></button>
+
+    <script src="js/main.js"></script>
+    <script>
+        function playVideo(overlay) {
+            const videoCard = overlay.parentElement;
+            const video = videoCard.querySelector('video');
+
+            // Pause all other videos
+            document.querySelectorAll('.video-card video').forEach(v => {
+                if (v !== video) {
+                    v.pause();
+                    v.parentElement.classList.remove('playing');
+                }
+            });
+
+            if (video.paused) {
+                video.play();
+                videoCard.classList.add('playing');
+                video.controls = true;
+            } else {
+                video.pause();
+                videoCard.classList.remove('playing');
+            }
+
+            video.onended = () => {
+                videoCard.classList.remove('playing');
+                video.controls = false;
+            };
+        }
+    </script>
+</body>
+
+</html>

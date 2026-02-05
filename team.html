@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Meet the Nurture Sync team - passionate healthcare innovators building the future of digital healthcare in India.">
+    <title>Our Team | Nurture Sync</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="Nurture sync logo.png">
+
+    <style>
+        .team-intro {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto var(--space-16);
+        }
+
+        .team-intro p {
+            font-size: var(--text-lg);
+        }
+
+        .team-values {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: var(--space-6);
+            margin-bottom: var(--space-16);
+        }
+
+        .value-card {
+            text-align: center;
+            padding: var(--space-6);
+            background: var(--gray-50);
+            border-radius: var(--radius-xl);
+            transition: all var(--transition-base);
+        }
+
+        .value-card:hover {
+            background: #fff;
+            box-shadow: var(--shadow-lg);
+            transform: translateY(-5px);
+        }
+
+        .value-icon {
+            font-size: var(--text-4xl);
+            margin-bottom: var(--space-4);
+        }
+
+        .value-card h4 {
+            font-size: var(--text-lg);
+            margin-bottom: var(--space-2);
+        }
+
+        .value-card p {
+            font-size: var(--text-sm);
+            color: var(--gray-500);
+            margin-bottom: 0;
+        }
+
+        @media (max-width: 768px) {
+            .team-values {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .team-values {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="overlay" id="overlay"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar scrolled" id="navbar">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <img src="Nurture sync logo.png" alt="Nurture Sync Logo" class="navbar-logo-circular">
+                <span>Nurture Sync</span>
+            </a>
+
+            <ul class="navbar-nav" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="team.html" class="active">Our Team</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="contact.html" class="navbar-cta">Contact Us</a></li>
+            </ul>
+
+            <div class="navbar-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html">Home</a>
+                <span>/</span>
+                <span>Our Team</span>
+            </div>
+            <h1>Meet Our Team</h1>
+            <p>Passionate innovators dedicated to revolutionizing healthcare through technology and AI.</p>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team section">
+        <div class="container">
+
+            <div class="team-intro fade-in">
+                <p>
+                    We are a team of AI researchers, developers, and healthcare enthusiasts united by a common vision:
+                    making healthcare accessible, efficient, and connected for everyone. Each member brings unique
+                    expertise
+                    that drives Nurture Sync's innovation.
+                </p>
+            </div>
+
+            <!-- Team Values -->
+            <div class="team-values">
+
+                <div class="value-card fade-in stagger-2">
+                    <div class="value-icon">❤️</div>
+                    <h4>Empathy</h4>
+                    <p>Understanding patient and doctor needs</p>
+                </div>
+                <div class="value-card fade-in stagger-1">
+                    <div class="value-icon">💡</div>
+                    <h4>Innovation</h4>
+                    <p>Pushing boundaries with cutting-edge AI</p>
+                </div>
+                <div class="value-card fade-in stagger-4">
+                    <div class="value-icon">🤝</div>
+                    <h4>Collaboration</h4>
+                    <p>Building bridges in healthcare</p>
+                </div>
+                <div class="value-card fade-in stagger-3">
+                    <div class="value-icon">🔒</div>
+                    <h4>Trust</h4>
+                    <p>Securing health data with integrity</p>
+                </div>
+            </div>
+
+            <!-- Team Grid -->
+            <div class="team-grid">
+
+                <!-- Nandini Kuppala -->
+                <div class="team-card fade-in stagger-1">
+                    <div class="team-photo">
+                        <img src="team/nandini.jpeg" alt="Nandini Kuppala">
+                    </div>
+                    <h3>Nandini Kuppala</h3>
+                    <p class="team-role">CEO / Product & AI</p>
+                    <p class="team-expertise">Web & App Developer, AI Developer</p>
+                    <div class="team-social">
+                        <a href="https://www.linkedin.com/in/nandini-kuppala/" target="_blank"
+                            aria-label="LinkedIn">in</a>
+                        <a href="#" aria-label="Twitter">𝕏</a>
+                        <a href="mailto:knandini7816@gmail.com" aria-label="Email">✉</a>
+                    </div>
+                </div>
+
+                <!-- Vishal A S -->
+                <div class="team-card fade-in stagger-2">
+                    <div class="team-photo">
+                        <img src="team/vishal.jpeg" alt="Vishal A S">
+                    </div>
+                    <h3>Vishal A S</h3>
+                    <p class="team-role">CTO / AI Systems & Engineering</p>
+                    <p class="team-expertise">AI Researcher, Expert in Generative AI and LLMs</p>
+                    <div class="team-social">
+                        <a href="https://www.linkedin.com/in/vishal-a-s04/" target="_blank" aria-label="LinkedIn">in</a>
+                        <a href="#" aria-label="Twitter">𝕏</a>
+                        <a href="#" aria-label="GitHub">⌨</a>
+                    </div>
+                </div>
+
+                <!-- Sarvesh Kannan -->
+                <div class="team-card fade-in stagger-3">
+                    <div class="team-photo">
+                        <img src="team/sarvesh.jpeg" alt="Sarvesh Kannan">
+                    </div>
+                    <h3>Sarvesh Kannan</h3>
+                    <p class="team-role">COO / Clinical Ops & Partnerships</p>
+                    <p class="team-expertise">Computer Vision Researcher, Agentic AI</p>
+                    <div class="team-social">
+                        <a href="http://linkedin.com/in/sarvesh-kannan/" target="_blank" aria-label="LinkedIn">in</a>
+                        <a href="#" aria-label="Twitter">𝕏</a>
+                        <a href="#" aria-label="GitHub">⌨</a>
+                    </div>
+                </div>
+
+                <!-- Pranesh L -->
+                <div class="team-card fade-in stagger-4">
+                    <div class="team-photo">
+                        <img src="team/pranesh.jpeg" alt="Pranesh L">
+                    </div>
+                    <h3>Pranesh L</h3>
+                    <p class="team-role">CFO / Finance & Compliance</p>
+                    <p class="team-expertise">Computer Vision Researcher, Agentic AI</p>
+                    <div class="team-social">
+                        <a href="https://www.linkedin.com/in/pranesh-l-55560327a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                            target="_blank" aria-label="LinkedIn">in</a>
+                        <a href="#" aria-label="Twitter">𝕏</a>
+                        <a href="#" aria-label="GitHub">⌨</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Join Us CTA -->
+    <section class="cta">
+        <div class="container">
+            <h2>Want to Join Our Mission?</h2>
+            <p>We're always looking for talented individuals passionate about transforming healthcare with technology.
+            </p>
+            <div class="cta-buttons">
+                <a href="contact.html" class="btn btn-lg btn-primary">Get in Touch</a>
+                <a href="services.html" class="btn btn-lg btn-outline">Learn About Our Work</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="Nurture sync logo.png" alt="Nurture Sync">
+                    <p>Revolutionizing healthcare with digital innovation. Your complete health companion for a
+                        connected, healthier future.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="LinkedIn">in</a>
+                        <a href="#" aria-label="Twitter">𝕏</a>
+                        <a href="#" aria-label="Facebook">f</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="team.html">Our Team</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html#patients">For Patients</a></li>
+                        <li><a href="services.html#doctors">For Doctors</a></li>
+                        <li><a href="services.html#community">Community</a></li>
+                        <li><a href="#">API Access</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul class="footer-links">
+                        <li><a href="mailto:knandini7816@gmail.com">knandini7816@gmail.com</a></li>
+                        <li><a href="tel:+91XXXXXXXXXX">+91 XXXX XXX XXX</a></li>
+                        <li>India</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Nurture Sync. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top"></button>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

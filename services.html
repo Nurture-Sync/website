@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Nurture Sync Services - Comprehensive healthcare features for patients and doctors including digital health profiles, AI analysis, and community platform.">
+    <title>Our Services | Nurture Sync</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="Nurture sync logo.png">
+</head>
+
+<body>
+    <div class="overlay" id="overlay"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar scrolled" id="navbar">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <img src="Nurture sync logo.png" alt="Nurture Sync Logo" class="navbar-logo-circular">
+                <span>Nurture Sync</span>
+            </a>
+
+            <ul class="navbar-nav" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html" class="active">Services</a></li>
+                <li><a href="team.html">Our Team</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="contact.html" class="navbar-cta">Contact Us</a></li>
+            </ul>
+
+            <div class="navbar-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html">Home</a>
+                <span>/</span>
+                <span>Services</span>
+            </div>
+            <h1>Our Services</h1>
+            <p>Comprehensive healthcare solutions powered by AI for patients, doctors, and the entire medical community.
+            </p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services section" id="services">
+        <div class="container">
+
+            <!-- Service Tabs -->
+            <div class="services-tabs">
+                <button class="tab-btn active" data-tab="patients">For Patients</button>
+                <button class="tab-btn" data-tab="doctors">For Doctors</button>
+                <button class="tab-btn" data-tab="community">Community</button>
+            </div>
+
+            <!-- Patient Services -->
+            <div class="tab-content active" id="patients">
+                <div class="services-grid">
+                    <div class="service-card fade-in stagger-1">
+                        <div class="card-icon">🪪</div>
+                        <h3>Digital Health Card</h3>
+                        <p>Get a unique health card with QR code. Doctors can scan it to instantly view your complete
+                            medical profile, including name, age, chronic conditions, and medical history.</p>
+                    </div>
+
+                    <div class="service-card fade-in stagger-2">
+                        <div class="card-icon">📋</div>
+                        <h3>Complete Health Profile</h3>
+                        <p>Store all your health data in one place — allergies, medications, previous consultations,
+                            prescriptions, and test reports. Edit and update anytime.</p>
+                    </div>
+
+                    <div class="service-card fade-in stagger-3">
+                        <div class="card-icon">📝</div>
+                        <h3>Prescription Digitization</h3>
+                        <p>Upload handwritten prescriptions and our AI extracts and stores the content digitally. Never
+                            lose a prescription again.</p>
+                    </div>
+
+                    <div class="service-card fade-in stagger-4">
+                        <div class="card-icon">🔬</div>
+                        <h3>AI Report Analysis</h3>
+                        <p>Upload medical reports and get AI-generated summaries. Compare with previous reports and
+                            understand trends in your health parameters.</p>
+                    </div>
+
+                    <div class="service-card fade-in stagger-5">
+                        <div class="card-icon">🥗</div>
+                        <h3>Smart Diet Planning</h3>
+                        <p>Get personalized diet recommendations based on your health reports, food preferences, and
+                            locally available ingredients. Take a photo of ingredients for instant recipes!</p>
+                    </div>
+
+                    <div class="service-card fade-in stagger-6">
+                        <div class="card-icon">🤖</div>
+                        <h3>AI Health Assistant</h3>
+                        <p>Chat with our AI assistant using voice or images. Ask health questions, share daily
+                            activities, get ingredient-based recipes, and receive personalized suggestions.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Doctor Services -->
+            <div class="tab-content" id="doctors">
+                <div class="services-grid">
+                    <div class="service-card fade-in stagger-1">
+                        <div class="card-icon">📱</div>
+                        <h3>QR Patient Access</h3>
+                        <p>Scan patient health cards to instantly access complete medical history. Search and filter
+                            reports by keywords like "surgery" or "thyroid" for quick retrieval.</p>
+                    </div>
+
+                    <div class="service-card fade-in stagger-2">
+                        <div class="card-icon">💊</div>
+                        <h3>Drug Compatibility Checker</h3>
+                        <p>Check drug interactions with patient's current medications before prescribing. Get alerts for
+                            potential reactions, expired medicines, and safety concerns.</p>
+                    </div>
+
+                    <div class="service-card fade-in stagger-3">
+                        <div class="card-icon">📄</div>
+                        <h3>Digital Prescriptions</h3>
+                        <p>Create digital prescriptions or upload scanned handwritten ones. Prescriptions are
+                            automatically added to patient profiles for easy access.</p>
+                    </div>
+
+                    <div class="service-card fade-in stagger-4">
+                        <div class="card-icon">🔍</div>
+                        <h3>AI Query Assistant</h3>
+                        <p>Ask AI anything about your patients. Get quick summaries of current reports, past history,
+                            medication lists, and more with contextual understanding.</p>
+                    </div>
+
+                    <div class="service-card fade-in stagger-5">
+                        <div class="card-icon">📊</div>
+                        <h3>Report Management</h3>
+                        <p>Verified healthcare providers can add reports directly to patient profiles. Complete audit
+                            trail and secure access management.</p>
+                    </div>
+
+                    <div class="service-card fade-in stagger-6">
+                        <div class="card-icon">⚡</div>
+                        <h3>Emergency Quick View</h3>
+                        <p>In emergencies, quickly access critical patient information — allergies, blood type, chronic
+                            conditions, and recent surgeries without delays.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Community Services -->
+            <div class="tab-content" id="community">
+                <div class="services-grid">
+                    <div class="service-card fade-in stagger-1">
+                        <div class="card-icon">👥</div>
+                        <h3>Premium Community</h3>
+                        <p>Subscribe to premium for access to a vibrant community where patients and doctors interact.
+                            Direct message doctors and get personalized advice.</p>
+                    </div>
+
+                    <div class="service-card fade-in stagger-2">
+                        <div class="card-icon">📢</div>
+                        <h3>Health Channels</h3>
+                        <p>Join topic-specific channels like Diabetes, Heart Health, Thyroid, Mental Health, and more.
+                            Stay updated on the latest discussions in your health areas.</p>
+                    </div>
+
+                    <div class="service-card fade-in stagger-3">
+                        <div class="card-icon">💬</div>
+                        <h3>Group Discussions</h3>
+                        <p>Create or join groups for specific conditions. Share experiences, tips, and support with
+                            others going through similar health journeys.</p>
+                    </div>
+
+                    <div class="service-card fade-in stagger-4">
+                        <div class="card-icon">📝</div>
+                        <h3>Doctor Content</h3>
+                        <p>Verified doctors can post educational content, health tips, and awareness articles. Patients
+                            can comment and engage.</p>
+                    </div>
+
+                    <div class="service-card fade-in stagger-5">
+                        <div class="card-icon">🏃</div>
+                        <h3>Activity Groups</h3>
+                        <p>Create local activity groups — like a jogging group with neighbors or a yoga group. Track
+                            streaks and motivate each other.</p>
+                    </div>
+
+                    <div class="service-card fade-in stagger-6">
+                        <div class="card-icon">🏆</div>
+                        <h3>Health Challenges</h3>
+                        <p>Participate in community health challenges. Compete with others, earn badges, and stay
+                            motivated on your health journey.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="section" style="background: var(--gray-50);">
+        <div class="container">
+            <div class="section-header">
+                <h2>How It <span class="text-gradient">Works</span></h2>
+                <p>Get started with Nurture Sync in three simple steps.</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="card feature-card fade-in text-center">
+                    <div class="card-icon" style="margin: 0 auto var(--space-6);">1️</div>
+                    <h3>Create Your Profile</h3>
+                    <p>Sign up and create your digital health profile. Add your medical history, allergies, and current
+                        medications.</p>
+                </div>
+
+                <div class="card feature-card fade-in text-center">
+                    <div class="card-icon" style="margin: 0 auto var(--space-6);">2️</div>
+                    <h3>Get Your Health Card</h3>
+                    <p>Receive your unique health card with QR code. Share it with any doctor for instant access to your
+                        complete profile.</p>
+                </div>
+
+                <div class="card feature-card fade-in text-center">
+                    <div class="card-icon" style="margin: 0 auto var(--space-6);">3️</div>
+                    <h3>Stay Connected</h3>
+                    <p>Upload reports, chat with AI, join the community, and keep your health data synchronized across
+                        all providers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Experience Smart Healthcare?</h2>
+            <p>Join the digital healthcare revolution. Create your profile and get your health card today.</p>
+            <div class="cta-buttons">
+                <a href="contact.html" class="btn btn-lg btn-primary">Get Started</a>
+                <a href="team.html" class="btn btn-lg btn-outline">Meet Our Team</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="Nurture sync logo.png" alt="Nurture Sync">
+                    <p>Revolutionizing healthcare with digital innovation. Your complete health companion for a
+                        connected, healthier future.</p>
+                    <div class="footer-social">
+                        <a href="https://www.linkedin.com/in/nandini-kuppala/" aria-label="LinkedIn">in</a>
+                        <a href="https://www.linkedin.com/in/nandini-kuppala/" aria-label="Twitter">𝕏</a>
+                        <a href="https://www.linkedin.com/in/nandini-kuppala/" aria-label="Facebook">f</a>
+                        <a href="https://www.linkedin.com/in/nandini-kuppala/" aria-label="Instagram">📷</a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="team.html">Our Team</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html#patients">For Patients</a></li>
+                        <li><a href="services.html#doctors">For Doctors</a></li>
+                        <li><a href="services.html#community">Community</a></li>
+                        <li><a href="#">API Access</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul class="footer-links">
+                        <li><a href="mailto:knandini7816@gmail.com">knandini7816@gmail.com</a></li>
+                        <li><a href="tel:+91XXXXXXXXXX">+91 XXXX XXX XXX</a></li>
+                        <li>India</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Nurture Sync. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top"></button>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

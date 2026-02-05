@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Large video files (hosted on Google Drive instead)
+videos/*.MOV
+videos/IMG_0582.MOV
+videos/IMG_0583.MOV
+videos/IMG_0585.MOV
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
